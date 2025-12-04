@@ -1,7 +1,0 @@
-# Authentication Module
-# Handles:
-
-  1. Student login
-  2. Password verification (hashed)
-  3. “Irregular only” access rule
-  4. Authentication middleware
