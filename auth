@@ -1,4 +1,5 @@
-Handles:
+# Authentication Module
+# Handles:
 
   1. Student login
   2. Password verification (hashed)
