@@ -1,6 +1,6 @@
 # Quick Start - Testing the System
 
-## 🚀 3-Step Setup
+## 3-Step Setup
 
 ### Step 1: Setup Database (2 minutes)
 
@@ -32,18 +32,18 @@ Go to: **http://localhost:8000**
 
 ---
 
-## ✅ Quick Verification
+## Quick Verification
 
 Run this command to verify everything is set up:
 ```bash
 php quick_test.php
 ```
 
-You should see all ✅ checkmarks!
+You should see all checkmarks!
 
 ---
 
-## 🔑 Test Login Credentials
+## Test Login Credentials
 
 **Irregular Student (Can Login):**
 - Student ID: `2020-12345`
@@ -58,7 +58,7 @@ You should see all ✅ checkmarks!
 
 ---
 
-## 🧪 Basic Test Flow
+## Basic Test Flow
 
 1. **Login** → Use `2020-12345` / `password123`
 2. **Dashboard** → Check Personal Info, Grades, Taken Subjects tabs
@@ -69,7 +69,7 @@ You should see all ✅ checkmarks!
 
 ---
 
-## ⚠️ Common Issues
+## Common Issues
 
 **"Database connection failed"**
 - Check MySQL is running
@@ -85,12 +85,13 @@ You should see all ✅ checkmarks!
 
 ---
 
-## 📚 More Details
+## More Details
 
 - See `TESTING.md` for comprehensive test scenarios
 - See `SETUP.md` for detailed installation guide
 
 ---
 
-**That's it! You're ready to test! 🎉**
+**That's it! You're ready to test!**
+
 
