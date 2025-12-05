@@ -1,9 +1,7 @@
 # PLM Irregular Student Enrollment System
 
 ## Overview
-A complete web application for **Irregular** students at Pamantasan ng Lungsod ng Maynila (PLM) to enroll in subjects. The system authenticates existing student records (no account creation), supports subject selection with comprehensive real-time validations, and finalizes enrollment producing a printable Student Enrollment Report (SER).
-
-## 🚀 Quick Start
+A sample web application for **Irregular** students at Pamantasan ng Lungsod ng Maynila (PLM) to enroll in subjects. The system authenticates existing student records (no account creation), supports subject selection with comprehensive real-time validations, and finalizes enrollment producing a printable Student Enrollment Report (SER).
 
 ### Prerequisites
 - PHP 7.4+ with PDO MySQL extension
@@ -33,33 +31,33 @@ A complete web application for **Irregular** students at Pamantasan ng Lungsod n
    - Open browser: `http://localhost:8000`
    - Login with test account: `2020-12345` / `password123`
 
-## ✨ Features
+## Features
 
 ### Core Functionality
-- ✅ **Student Authentication** - Login with Student ID + Password (Irregular students only)
-- ✅ **Dashboard** - Personal Info, Grades, and Taken Subjects tabs
-- ✅ **Subject Selection** - Browse and select subjects with sections
-- ✅ **Real-time Validation** - Instant feedback on subject addition
-- ✅ **Enrollment Finalization** - Secure database transaction
-- ✅ **SER Generation** - Printable Student Enrollment Report
+  **Student Authentication** - Login with Student ID + Password (Irregular students only)
+  **Dashboard** - Personal Info, Grades, and Taken Subjects tabs
+  **Subject Selection** - Browse and select subjects with sections
+  **Real-time Validation** - Instant feedback on subject addition
+  **Enrollment Finalization** - Secure database transaction
+  **SER Generation** - Printable Student Enrollment Report
 
 ### Validation Engine
-- ✅ **Already Taken Check** - Prevents re-enrollment in passed subjects
-- ✅ **Prerequisite Validation** - Ensures prerequisites are completed
-- ✅ **Corequisite Handling** - Prompts to add required corequisites
-- ✅ **Schedule Conflict Detection** - Prevents overlapping class schedules
-- ✅ **Unit Limits** - Enforces min (12) and max (24) units per semester
-- ✅ **Section Capacity** - Prevents over-enrollment in sections
-- ✅ **Duplicate Prevention** - Prevents duplicate enrollments
+  **Already Taken Check** - Prevents re-enrollment in passed subjects
+  **Prerequisite Validation** - Ensures prerequisites are completed
+  **Corequisite Handling** - Prompts to add required corequisites
+  **Schedule Conflict Detection** - Prevents overlapping class schedules
+  **Unit Limits** - Enforces min (12) and max (24) units per semester
+  **Section Capacity** - Prevents over-enrollment in sections
+  **Duplicate Prevention** - Prevents duplicate enrollments
 
 ### Additional Features
-- ✅ **Search & Filter** - Search subjects by code/name, filter by year/units
-- ✅ **Subject Details Modal** - View prerequisites, corequisites, and sections
-- ✅ **Custom Confirmation Modal** - Review enrollment before finalizing
-- ✅ **Cross-Program Prerequisites** - See prerequisites from other programs
-- ✅ **PLM Branding** - Official PLM colors, logo, and styling
+  **Search & Filter** - Search subjects by code/name, filter by year/units
+  **Subject Details Modal** - View prerequisites, corequisites, and sections
+  **Custom Confirmation Modal** - Review enrollment before finalizing
+  **Cross-Program Prerequisites** - See prerequisites from other programs
+  **PLM Branding** - Official PLM colors, logo, and styling
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── index.php                 # Entry point
@@ -92,7 +90,7 @@ A complete web application for **Irregular** students at Pamantasan ng Lungsod n
     └── init.sql            # Schema + sample data
 ```
 
-## 🧪 Test Accounts
+## Test Accounts
 
 | Student ID | Password | Name | Program | Year | Status |
 |------------|----------|------|---------|------|--------|
@@ -104,14 +102,14 @@ A complete web application for **Irregular** students at Pamantasan ng Lungsod n
 
 *Regular students are denied access to the system.
 
-## 📚 Documentation
+## Documentation
 
 - **README.md** - This file (overview and quick start)
 - **QUICK_START.md** - Quick 3-step setup guide
 - **SETUP.md** - Detailed installation instructions
 - **FINAL_SYSTEM_CHECK.md** - Comprehensive system review and status
 
-## 🔒 Security Features
+## Security Features
 
 - Password hashing (bcrypt)
 - PDO prepared statements (SQL injection prevention)
@@ -120,29 +118,30 @@ A complete web application for **Irregular** students at Pamantasan ng Lungsod n
 - Role-based access control
 - Generic error messages (detailed logging server-side)
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Frontend:** HTML5, CSS3, JavaScript (ES6+)
 - **Backend:** PHP 7.4+ (Procedural, Structured, No Frameworks)
 - **Database:** MySQL 5.7+ (PDO)
 - **Authentication:** Session-based with bcrypt
 
-## 📊 System Status
+## System Status
 
 **Overall Completion:** 99%
 
-- Core Functionality: ✅ 100%
-- Validation Engine: ✅ 100%
-- Security: ✅ 100%
-- UI/UX: ✅ 98%
+- Core Functionality: 100%
+- Validation Engine: 100%
+- Security: 100%
+- UI/UX: 98%
 
-**Production Ready:** ✅ YES
+**Production Ready:** YES
 
-## 📝 License
+## License
 
 This project is developed for educational purposes at Pamantasan ng Lungsod ng Maynila (PLM).
 
-## 🤝 Support
+## Support
 
 For issues or questions, refer to the documentation files or check `FINAL_SYSTEM_CHECK.md` for comprehensive system information.
+
 
